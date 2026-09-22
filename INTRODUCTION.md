@@ -91,8 +91,16 @@ Running local inference for 23 hours 10 minutes on an RTX 5090 consumed roughly 
 The logs showed that around 5000 calls were made to my local LLM, typical average prompt size was ~10000 tokens  - so approximately 49m prompt tokens were required.
 LLM token generation figures are less accurate, vllm logs suggest the output is around 40 tokens per second, suggesting a generated 3.3m tokens in the 23hrs 10minutes of running.
 
+---
 
-I am preparing sanitized extracts of the execution logs, Git commit timelines, and screenshots of the resulting application. If there is interest in the code it created—let me know in the comments and I will share on github.
+## 7. Code Upload
+
+The four folders (backend, frontend, testcase, Docs) and their contents were all created by the LLM and harness. Apologies, the 32k context limit meant that the LLM 
+has kept files short - hence no documentation in the files. This represents a fully running workbook and spreadsheet App. The spec was brief, the LLM created the
+test cases and API spec.
+
+
+I am preparing sanitized extracts of the execution logs, screenshots of the resulting application - watch this space.
 
 ---
 *PS: This is an independent hobby project focused on testing the boundaries of local hardware and long-horizon agent architectures.*
