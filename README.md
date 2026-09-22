@@ -3,7 +3,10 @@ Fully Autonomous agent capable of running 24hrs plus, building complete complex 
 
 Genesis Anchor:  0cdfe09fa3dca3e289184b32aaed265a392a450c0ac2df871ae99b64230fe730
 
-=================================================================================================================
+
+REFER to INTRODUCTION.md it is more complete
+===========================================================================
+
 Harness runs Qwen 3.8 27B for 24hr on an RTX5090, installs software and writes a Postgres-SpringBoot-React spreadsheet application fully unattended
 
 There is a lot to be said for a smart harness. The challenge I set myself was to be able to fully autonomously create real working complex applications using a small LLM (no frontier model access at all). It had to fit in 32GB VRAM (RTX5090) with a limited 32k context window. The only use of the Internet by the LLM itself was to install software onto a bare ubuntu VM image - no other help.
