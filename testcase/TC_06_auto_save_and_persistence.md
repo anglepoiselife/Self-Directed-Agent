@@ -1,0 +1,2 @@
+SELECT cell_value FROM cells WHERE workbook_id = (SELECT id FROM workbooks WHERE name = 'PersistenceTest') AND cell_ref = 'A1' AND sheet_id = (SELECT id FROM sheets WHERE workbook_id = (SELECT id FROM workbooks WHERE name = 'PersistenceTest') AND name = 'Sheet1');
+  
