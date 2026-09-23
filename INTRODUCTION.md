@@ -95,12 +95,13 @@ LLM token generation figures are less accurate, vllm logs suggest the output is 
 
 ## 7. Code Upload
 
-The four folders (backend, frontend, testcase, Docs) and their contents were all created by the LLM and harness. Apologies, the 32k context limit meant that the LLM 
-has kept files short - hence no documentation in the files. This represents a fully running workbook and spreadsheet App. The spec was brief, the LLM created the
+The four folders (backend, frontend, testcase, Docs) and their contents were all created by the LLM and harness - I put them in folder SpreadSheetApp. I have also added a small snippet of the 24hr log
+that is written as the LLM is working. Apologies, the 32k context limit meant that the LLM has kept files short - hence no documentation in the files. 
+This represents a fully running workbook and spreadsheet App. The spec was brief, the LLM created the
 test cases and API spec.
 
 
-I am preparing sanitized extracts of the execution logs, screenshots of the resulting application - watch this space.
+I am preparing screenshots of the resulting application, may also add another app built - watch this space.
 
 ---
 *PS: This is an independent hobby project focused on testing the boundaries of local hardware and long-horizon agent architectures.*
